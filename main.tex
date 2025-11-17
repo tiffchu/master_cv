@@ -1,0 +1,317 @@
+\documentclass{res}
+\usepackage{graphicx} % Required for inserting images
+
+\usepackage{pifont}
+\usepackage{hyperref}
+\usepackage[utf8x] {inputenc}
+\usepackage{lmodern,textcomp}
+\usepackage{enumitem}
+
+% \usepackage{xcolor} % to enable colored text
+% \usepackage{sectsty} % : to style section headers
+% \usepackage[x11names]{xcolor}
+\usepackage[dvipsnames]{xcolor}
+
+%\topmargin .5in
+%\oddsidemargin -.5in
+%\evensidemargin -.5in
+%\textwidth=6.0in
+ \textheight=9.0in
+%\itemsep=0in
+%\parsep=0in
+\usepackage{fancyhdr}
+%\topmargin=0in
+%\textheight=8.5in
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+
+\setlength{\footskip}{4pt}   % Set footer height
+%\cfoot{\thepage}
+%\lfoot{\textit{\footnotesize Research Statement}}
+%\rfoot{{\footnotesize Curriculum Vitae, Yuchong Pan, \thepage}}
+\fancypagestyle{plain}{%
+\fancyhf{} % clear all header and footer fields
+\fancyfoot[C]{\bfseries \thepage} % except the center
+\renewcommand{\headrulewidth}{pt}
+\renewcommand{\footrulewidth}{in}}
+
+% Adjusting Margins
+\setlength{\topmargin}{-0.3in}      % Reduce the top margin
+\setlength{\textheight}{10.0in}    % Increase the text height
+\setlength{\oddsidemargin}{-0.4in} % Adjust left margin
+\setlength{\evensidemargin}{0.1in} % Slightly increase the right margin
+\setlength{\textwidth}{6.7in}      % Adjust text width to account for the right margin
+
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0.025in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+\newenvironment{list3}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0.05in}
+      \setlength{\parsep}{0.025in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+
+
+\begin{document}
+
+
+% \name{Tiffany Chu \vspace*{-.1in}}
+ \begin{resume}
+% \section{\sc Contact Information}
+ \vspace{-0.2in}
+% \begin{tabular}{p{2in}}
+% Vancouver, BC. \\
+% \href{mailto:tiffanymchu@gmail.com}{tiffanymchu@gmail.com} \\
+% \end{tabular}
+
+% \moveleft0\hoffset\centerline{\huge\bf Tiffany Chu}
+\centerline{\fontsize{18}{24}\bfseries\scshape Tiffany Chu}
+\vspace{-0.2cm}
+\hspace{-0.8cm}\centerline{\rule{18cm}{0.5pt}} % Moves the line 1cm to the right
+
+
+\vspace*{-0.1in}
+\begin{center}
+    \textbf{Vancouver, BC} $\vert$
+    \textbf{Phone:} 778-229-8518  $\vert$ 
+    \textbf{Email:} \href{mailto:tiffanymchu@gmail.com}{\textcolor{Blue}{tiffanymchu@gmail.com}} $\vert$
+    \textbf{GitHub:} \href{https://github.com/tiffchu}{\textcolor{Blue}{tiffchu}} 
+\end{center}
+
+
+
+
+\section{\textcolor{Blue}{\sc Education}}
+\vspace*{.1in}
+
+\hspace*{-0.2in}{\bf University of British Columbia} \hfill 2019 - Dec 2023 \\
+\vspace*{-.15in}
+\hspace*{-0.2in}\begin{list1}
+\item[]\hspace*{-0.2in} M.Sc. in Data Science
+    \item[$\circ$] Scholarship recipient, 93\% average
+\end{list1}
+
+\hspace*{-0.2in}{\bf University of British Columbia} \hfill 2019 - Dec 2023 \\
+\vspace*{-.15in}
+\hspace*{-0.2in}\begin{list2}
+\item[]\hspace*{-0.2in} B.A. in Cognitive Systems, minor in Commerce
+    \item[$\circ$] Entrepreneurship@UBC accelerator venture program 
+\end{list2}
+
+\hspace*{-0.2in}{\bf BrainStation} \hfill 2024 - Apr 2024 \\
+\vspace*{-.15in}
+\begin{list3}
+\item[]\hspace*{-0.2in} Accelerated Data Science Diploma
+\end{list3}
+
+
+% \section{\sc Experience}
+\section{\textcolor{Blue}{\sc Experience}}
+\vspace*{.1in}
+
+\hspace*{-0.3in}{\bf Research Analyst} \hfill Feb 2025 - Present\\
+\hspace*{-0.2in} \emph{Lodestar Media Inc}\\
+\vspace*{-.15in} 
+\begin{itemize}[leftmargin=0in, labelsep=0.5em]
+    \item[ $\circ$] Developed scalable ETL pipelines using Python notebooks, Power Query, and VBA, improving speed and accuracy of weekly BIV lists 
+    \item[ $\circ$] Built a new PostgreSQL database in pgAdmin to merge and transform multiple raw tables to derive key insights on 30,000+ company records, 20,000+ contacts, and historical executive data 
+\end{itemize}
+
+\hspace*{-0.3in}{\bf Technical Research Assistant} \hfill Sept 2024 - Jan 2025\\
+\hspace*{-0.2in} \emph{Rural eMentoring BC}\\
+\vspace*{-.15in} 
+\begin{itemize}[leftmargin=0in, labelsep=0.5em]
+    \item[ $\circ$] Managing the Natural Language Processing Tool website for automated data analysis and deriving insights from user relationships 
+\end{itemize}
+
+\hspace*{-0.3in}{\bf Research Assistant Volunteer} \hfill 2023 - Dec 2024 \\
+\hspace*{-0.2in}\emph{Oculomotor Lab - Department of Visual Sciences, UBC} \\
+\vspace*{-0.15in}
+\begin{itemize}[leftmargin=0in, labelsep=0.5em]
+    \item[$\circ$] Conducted experiments using the EyeLink eye tracker with participants, analyzed audio files in Python notebooks, created graphs and experiment design diagrams, and synthesized audio features into .csv spreadsheets
+    \item[$\circ$] Documented and synthesized research for literature review and project ideation.
+\end{itemize}
+
+\hspace*{-0.3in}{\bf Data Science (NLP) Research Intern} \hfill May - Aug 2024\\
+\hspace*{-0.2in} \emph{UBC Data Science Institute}\\
+\vspace*{-.15in} 
+\begin{itemize}[leftmargin=0in, labelsep=0.5em]
+    \item[ $\circ$] Managed and manipulated large datasets with 10000+ user entries, leveraging machine learning models to uncover insights, created reports and visualizations to communicate complex data insights into practical solutions
+    \item[ $\circ$] Developed an app with text preprocessing/ cleaning and NLP models including question-answering models, summarization, mood detection, and recommender systems
+    \item[ $\circ$] Conducted exploratory data analysis and applied time series analysis (using Prophet) to uncover and predict trends
+\end{itemize}
+
+   
+\hspace*{-0.3in}{\bf Marketing Analyst Intern} \hfill Sept - Dec 2022\\
+\hspace*{-0.2in} \emph{Pawsome Concierge}\\
+\vspace*{-.15in} 
+\begin{itemize}[leftmargin=0in, labelsep=0.5em]
+ \item[ $\circ$] Conducted competitor and market analyses to identify partner opportunities and growth initiatives 
+ \item[ $\circ$] Designed a comprehensive client acquisition proposal outlining the pricing terms, value proposition, and timeline 
+ \item[ $\circ$] Enhanced marketing initiatives by translating market data, delivering insightful reports with statistics and visualizations 
+% \item[ $\circ$] Created a client acquisition proposal outlining the pricing terms, value proposition, and project timeline
+% \item[ $\circ$] Conducted market research and 11 competitor analyses to identify potential client opportunities; rewrote their business model canvas and SWOT analyses
+% \item[ $\circ$] Prepared 4 client presentations, proposals, and sales materials for the sales and marketing teams
+\end{itemize}
+
+% {\bf TELUS Communications} \hfill 2022\\
+%  \emph{Account Specialist}\\
+% \vspace*{-.15in} 
+% \begin{list1}
+% \item[ $\circ$] Generated growth opportunities and 50 RGUs per day by constant analysis of my sales funnel and making strategic changes
+% \item[ $\circ$] Interpreted data in Salesforce to aggregate lead/customer information to build a customer base 
+% \end{list1}
+
+% {\bf Mrs. Sam's Excellence Formula} \hfill 2020 - 2021\\
+%  \emph{Tutor}\\
+% \vspace*{-.15in} 
+% \begin{list1}
+% \item[ $\circ$] Analyzed students' behaviour during lessons and adapted teaching methods to fit their learning needs
+% \item[ $\circ$] Taught Singaporean math, English literature, and reading comprehension 
+% \end{list1}
+
+% {\bf Pretty Lucid Place} \hfill 2020\\
+%  \emph{Assistant Manager}\\
+% \vspace*{-.15in} 
+% \begin{list1}
+% \item[ $\circ$] Created employee portfolios and scheduled administrative and customer-centered roles
+% \item[ $\circ$] Experienced in MS Office applications, specifically data entry and manipulation in Excel
+% \end{list1}
+% \newpage
+\hspace*{-0.3in}{\bf Byte Camp} \hfill May - Aug 2020\\
+\hspace*{-0.2in} \emph{Computer Programming Instructor}\\
+\vspace*{-.15in} 
+\begin{itemize}[leftmargin=0in, labelsep=0.5em]
+\item[ $\circ$] Successfully taught computer applications such as Blender, OBS, Inkscape, and Godot (in Python) for weekly groups of 30 high school students alongside partner instructor
+% \item[ $\circ$] Created in-depth lesson plans, wrote a Mario game using Python in Godot and created 8 video tutorials on the process
+\end{itemize}
+
+\section{\textcolor{Blue}{\sc Volunteering and Mentoring Experience}}
+% \section{\sc Volunteering and Mentoring Experience} 
+\vspace*{.1in}
+
+\hspace*{-0.3in}{\bf Patient Partner and Research Assistant} \hfill Jan 2023 - Present \\
+\hspace*{-0.2in}\emph{UBC School of Nursing} \\
+\vspace*{-0.15in}
+\begin{itemize}[leftmargin=0in, labelsep=0.5em]
+\item[ $\circ$ ] Supervisor: Dr. A. Fuchsia Howard
+\item[ $\circ$ ] Research Project - Analyzing transcripts from intensive care unit (ICU) survivors using computational methods to identify the challenges people experience after hospitalization that might contribute to an unplanned readmission 
+\item[ $\circ$ ] Aided in the knowledge translation of a longitudinal Photovoice Study of ICU Survivors. Successful CIHR grant funding. Research paper and virtual exhibition in progress.
+\end{itemize}
+
+
+\hspace*{-0.3in}{\bf Founder and President} \hfill 2020 - 2021\\ 
+\hspace*{-0.2in} \emph{Unload Canada (UBC Chapter)}\\
+\vspace*{-.15in} 
+\begin{itemize}[leftmargin=0in, labelsep=0.5em]
+% \item[ $\circ$] Extended the organization to UBC and delegated roles to fundraise, recruit, and organize events to promote mental health on campus
+\item[ $\circ$] Responsible for planning conferences with professors, and collaborated with other organizations (Kaleidoscope, Music for Mental Health, QPR training)
+\end{itemize}
+
+
+\hspace*{-0.3in}{\bf Volunteer Coding Instructor} \hfill 2019 - 2020\\ 
+\hspace*{-0.2in} \emph{The C.O.D.E Initiative}\\
+\vspace*{-.15in} 
+\begin{itemize}[leftmargin=0in, labelsep=0.5em]
+\item[ $\circ$] Successfully trained a group of students in coding the Sphero SPRK+ robot by guiding students to think programmatically when solving errors in their code
+
+% and introduced the students to essential aspects of programming - debugging, data and control structures, and applying hardware concepts
+% \item[ $\circ$] Guided students to develop their own methods to solve errors in their code
+\end{itemize}
+
+\hspace*{-0.3in}{\bf Mentor} \hfill 2020 - 2021\\ 
+\hspace*{-0.2in}\emph{LEAP Canada}\\
+\vspace*{-.15in} 
+\begin{itemize}[leftmargin=0in, labelsep=0.5em]
+\item[ $\circ$] A role model to incoming first-year students, collaborated with industry professionals and peers to deliver a presentation to an audience of over 200 students 
+% \item[$\circ$] A mentor and role model to incoming first-year students going to Canadian universities, prepared them for their transition to university and shared tips for success
+\end{itemize}
+
+% {\bf Richmond City Hall} \hfill 2015 - 2019\\ 
+%  \emph{Team Leader}\\
+% \vspace*{-.15in} 
+% \begin{list1}
+% \item[$\circ$] Organized and led environmental projects (waste management solutions) for events in Richmond, most notably World Fest, Maritime Fest, and Salmon Fest
+% \item[$\circ$] Managed teams of 5-10, delegated roles that maximized efficiency and matched their skillset 
+% \end{list1}
+
+% {\bf City Centre Community Centre} \hfill 2017 - 2019\\ 
+%  \emph{Finance and Operations}\\
+% \vspace*{-.15in} 
+% \begin{list1}
+% \item[$\circ$] Designed community projects to benefit disadvantaged populations in Vancouver (blanket drive, open community meals, food drives)
+% \item[$\circ$] Hosted events (games and movies night, carnivals) in the community center to generate over \textdollar $400$ for the food bank
+% \end{list1}
+
+
+% \section{\sc Selected Coursework}
+% \vspace*{.05in}
+
+
+%  \emph{University of British Columbia}
+%  \begin{list2}
+%    \item[] PSYC217 Research Methods 
+%    \item[] PSYC218 Analysis of Behavioural data (Jamovi, SPSS)
+%     \item[] CPSC103 Systematic Program Design (Python)
+%    \item[] CPSC110 Computation, Programs, and Programming (Racket)
+%    \item[] CPSC121 Models of Computation 
+%    \item[] MATH184 Differential Calculus 
+%    \item[] COGS300 Understanding and Designing Cognitive Systems (C++)
+%    \item[] COGS303 Research Methods in Cognitive Systems (Bayesian Statistics and Hypothesis in Python, Modelling in Netlogo)
+
+%  \end{list2}
+\section{\textcolor{Blue}{\sc Projects}}
+\vspace*{.1in}
+
+\hspace*{-0.3in}{\bf Latent Content Analysis of ICU Photovoice Transcripts} \\
+% \hfill 2023\\ 
+\vspace*{-.15in} 
+\begin{itemize}[leftmargin=0in, labelsep=0.5em]
+\item[ $\circ$ ] Created a pipeline using Python to analyze qualitative data, including CSV and Word-to-JSON converters, text preprocessing, embeddings/vectorization, and performance metrics (coherence, perplexity).
+\item[ $\circ$ ] Used topic modeling and other natural language processing techniques to identify themes in ICU patient transcripts and photos.
+\end{itemize}
+
+% {\bf NLP Text Analysis Tool} \hfill Sept 2023 \\
+% \vspace*{-0.15in}
+% \begin{list1}
+%     \item[ $\circ$ ] Created a pipeline to analyze qualitative data, including CSV and Word-to-JSON converters, text preprocessing, dimensionality reduction, embeddings/vectorization, NLP models, and performance metrics (coherence, F1 score).
+% \end{list1}
+
+\hspace*{-0.3in}{\bf Anomaly Detection of Congressional Investments} \\
+% \hfill 2024 \\
+\vspace*{-0.15in}
+\begin{itemize}[leftmargin=0in, labelsep=0.5em]
+    \item[ $\circ$ ] Identified congressional insider trading using data from the Senate Stock Watcher API.
+    \item[ $\circ$ ] Implemented unsupervised ML ensemble methods (autoencoders and hierarchical clustering) to flag suspicious transactions and trading patterns.
+\end{itemize}
+
+
+\section{\textcolor{Blue}{\sc Relevant Skills}}
+\vspace*{.1in}
+\begin{tabular}{@{}p{0.8in}p{4.25in}}
+
+Languages:& English (native), Cantonese (conversational)\\[0.5em]
+Programming:& \LaTeX, Python, C++, Racket, R, Git Bash, HTML/CSS/Javascript, SQL, Matlab\\[0.5em]
+Technologies:& AWS, Docker containers, Git, Bash CLI, big data frameworks (Hadoop and Spark), Tableau, Streamlit \\[0.5em]
+Software:& SPSS, Jamovi, Excel, Netlogo, Microsoft Office Suite, GSuite, InkScape, Camtasia \\[0.5em]
+Libraries:& Pandas, NumPy, Scikit-Learn, matplotlib, seaborn, pytorch, NLTK, Scipy, ggplot2, dplyr, plotly, huggingface \\[0.5em]
+Certifications:& Red Cross Emergency First Aid AED+CPR certified \\[0.5em]
+% Finance:& IFRS for comprehensive balance sheet, income, cash flow, and changes in equity statement preparation\\
+% Accounting:& GAAP for bookkeeping (accrual and cash accounting), along with its analysis for company forecasting
+
+\end{tabular}
+
+\end{resume}
+
+\end{document}
